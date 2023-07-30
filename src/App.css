@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+.navbar-expand-lg .navbar-collapse{
+  justify-content: end;
+}
+/* Dashboard.css */
+.navbar {
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar ul {
+  list-style: none;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar li {
+  display: inline-block;
+  margin-right: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navbar a {
+  color: #fff;
+  text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
+.post {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: black;
+  padding: 10px;
+  margin: 10px 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.post .post-header {
+  font-weight: bold;
 }
+
+.post .post-footer button {
+  margin-right: 10px;
+}
+
+.post-form textarea {
+  width: 100%;
+  color: black;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.text{
+  color: black;
+}
+.icons{
+  margin: 36px 24px 19px 30px;
+  cursor: pointer;
+}
+
