@@ -134,9 +134,9 @@ const Dashboard = () => {
     setAlertMessage('Sign In successful.');
   };
 
-  const handleAlertClose = () => {
-    setAlertMessage('');
-  };
+  // // const handleAlertClose = () => {
+  //   setAlertMessage('');
+  // };
 
   return (
     <div>
